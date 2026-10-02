@@ -1,0 +1,2 @@
+import{i as e}from"./data-C2Kit-0r.js";function t(t,n){let r=Object.entries(n).filter(([,e])=>e).map(([e,t])=>`${e}: ${t}`).join(`
+`);window.location.href=`mailto:${e.email}?subject=${encodeURIComponent(t)}&body=${encodeURIComponent(r)}`}export{t};
